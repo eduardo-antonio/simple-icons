@@ -1,0 +1,23 @@
+<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_2_blur">
+   <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+  </filter>
+  <filter id="svg_3_blur">
+   <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="#ff0000" filter="url(#svg_2_blur)" rx="49" id="svg_2" height="245.71481" width="532.14403" y="99.43704" x="17.96433" stroke-width="16.5" fill="#ffffff"/>
+  <text transform="matrix(10.224764208744247,0,0,9.06876754760742,-2029.1858306748727,-1005.2344961166381) " filter="url(#svg_3_blur)" font-style="normal" font-weight="bold" stroke="#ff0000" xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="24" id="svg_3" y="143.65215" x="201.44331" fill="none">T</text>
+  <text stroke-width="15" stroke="#ff0000" transform="matrix(0.5470773196832965,0,0,0.8077684770772641,60.969805222183325,57.64293434983556) " font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Junction, sans-serif" font-size="216" id="svg_4" y="279.08056" x="155.68426" fill="none">oshiba</text>
+ </g>
+</svg>
